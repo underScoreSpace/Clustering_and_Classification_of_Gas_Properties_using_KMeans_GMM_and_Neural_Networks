@@ -4,25 +4,6 @@ This project implements a complete machine learning workflow for analyzing gas p
 
 The goal is to evaluate how different models perform on standardized gas property data and compare their effectiveness.
 
-Project Structure
-Assignment_2_ML/
-│
-├── data_preprocess.py        # Standardizes dataset using z-score normalization
-├── k_means_clustering.py    # K-Means clustering
-├── em_clustering.py         # Gaussian Mixture Model (EM)
-├── SOM_clustering.py        # Self Organizing Map clustering
-├── evaluation.py            # Silhouette score and clustering evaluation
-├── classification_data.py   # Data preparation for classification
-├── mlp_classifier.py        # MLP model implementation
-├── rbf_classifier.py        # RBF model implementation
-│
-├── GasProperties.csv        # Original dataset
-├── StdGasProperties.csv     # Standardized dataset
-│
-├── kmeans_labels.npy
-├── gmm_labels.npy
-├── som_labels.npy
-Dataset
 
 The dataset contains physical gas properties used to predict quality levels.
 
